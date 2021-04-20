@@ -1,0 +1,32 @@
+TODAY & TOMORROW
+
+ArrayLists - a collection of values (that can be duplicated), in a defined ORDER
+
+Hashmaps - a collection of unique keys, each with a corresponding value (values can be duplicated)
+
+HashSets - a collection of unique values
+
+Neither HashMaps nor HashSets have a concept of the positions of elements, unlike an ArrayList
+
+
+Streams & Lambda Expressions
+
+.stream() starts to stream a collection
+
+Intermediate methods are chained together in the middle of the stream
+
+Terminal methods end the stream
+
+
+LATER IN THE WEEK
+
+Testing
+
+Static methods
+
+POKER CHALLENGE
+
+
+%10.20s says format a String, taking at least 10 characters, and at most 20 characters. This will pad short strings to 10, and truncate long strings to 20 chars.
+
+To line up columns in a series of sout statements, the numbers before and after the . in String formats should be the same. For example, %-20.20s.

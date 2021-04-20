@@ -1,0 +1,52 @@
+Cain	=	Key-en
+
+
+"Java is a back-end language"
+
+Java is a compiled language, Javascript is an interpreted language
+
+JDK contains "everything we need to write java code", including:
+
+	the JRE (Java Runtime Environment)
+
+	the JVM (Java Virtual Machine)
+
+"sout -> enter" is a shortcut for System.out.println();
+
+"[variable].sout -> enter" wraps a variable in a System.out statement
+
+
+Functional programming VS object orientated programming
+
+	two paradigms, each with their pros and cons
+
+
+In a java program, there is ALWAYS a Main class containing a main method
+All other classes branch out from this
+
+
+Double is more precise than float - always use double unless you have a complex reason not to
+
+"Bust a variable" = put a value into a variable that's too large for it to hold
+
+
+Reference type = a data type based on a class rather than a primitive type (e.g. string)
+
+
+USEFUL CODE SNIPPETS
+
+Scanner scanner = new Scanner(System.in);
+String input = scanner.next();
+
+
+int RandomInteger = (int) Math.ceil(Math.random()*maxPossibleResult);
+
+
+double BMI = weight / ((height/100) * (height/100));
+DecimalFormat roundedResult = new DecimalFormat("#.#");
+System.out.println("Your BMI is: "+roundedResult.format(BMI)+"\n");
+
+NOTE:	DecimalFormat("#.##") will round to two decimal places, but WON'T pad
+	DecimalFormat("0.00") will round to two decimal places and WILL pad
+
+	

@@ -1,0 +1,22 @@
+Alt + Insert -> New class also gives the option to create an interface as well as a class
+
+An interface lists everything that must exist in a class that IMPLEMENTS it
+
+Alt + Insert lets you "implement methods" IF there are any missing that an interface requires
+
+Automatically implementing methods will add @Override annotations, but these AREN'T necessary (at least in the masic examples we saw).
+
+"Interfaces avoid redundant parent classes" - they're a better want of managing the creation of numerous different classes with the same core functionality
+
+Adding the "default" keyword on an interface method lets you write the method's code right there in the interface. Default methods are added verbotem to classes that implement the interface, without the need for any extra code in the class.
+
+
+AFTERNOON
+
+Plan a system of classes and in advance
+
+List their variables AND their methods
+
+Then plan the order you're going to make these classes
+
+Write as little as possible in the Main method

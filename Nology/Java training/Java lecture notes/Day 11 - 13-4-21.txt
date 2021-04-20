@@ -1,0 +1,62 @@
+TESTING - the same holds true for Java as for Javascript:
+
+Unit testing - small and cheap. Catch as much as possible at this stage.
+
+Integration test - how things interact. Moderately costly and time consuming
+
+End-to-end test - expensive and laborious.
+
+TDD = Test Driven Development
+
+Most tests are positive tests - "does it do what it should"
+
+negative tests - "what if I give it the wrong input"
+
+
+STEP 1
+
+Alt + insert -> test to start creating a test
+
+We've using JUnit version 5.4
+
+The addresses before @BeforeEach, @Test and @AfterEach can be deleted
+
+They will automatically be replaced by additional import statements at the top of the screen:
+	import org.junit.jupiter.api.AfterEach;
+	import org.junit.jupiter.api.BeforeEach;
+	import org.junit.jupiter.api.Test;
+
+
+STEP 2
+
+File -> Project Structure -> Modules -> "Dependencies" tab -> change "test" to "compile"
+
+This will make the test run automatically every time we compile, instead of it being manually run
+
+
+STEP 3
+
+Go to the "Select Run/Debug configuration" dropdown menu in the top right corner
+
+Go to "Edit Configurations"
+
+Select "Add new configuration" (the + in the top left corner)
+
+In Name, at the top, enter the name of the test class you created in step 1
+
+In the field next to the "class" drop-down, enter the path for this test class:
+com.[package name].[class name]
+
+
+
+
+
+
+NOTE: ctrl + / toggles comment on the line the cursor is on
+
+
+@BeforeEach code is run before EACH TEST, making it ideal for setting up variables
+
+@AfterEach is likewise run afterwards (@BeforeEach is used more frequently)
+
+

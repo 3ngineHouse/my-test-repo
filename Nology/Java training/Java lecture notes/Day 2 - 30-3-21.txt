@@ -1,0 +1,28 @@
+Java methods are typed - you say what you'll pass them, and what they'll return
+
+Don't define a variable just to return it - common "antipattern"
+
+You can make two versions of a method with the same name, differentiated only by the arguments they accept e.g. findArea(length, width) and findArea(radius)
+
+shift-shift in main method and typing "new class" is the shortcut to creating a new class
+
+
+If you put a bunch of methods in a seperate class (BasicMethods, for example), use:
+
+	import static com.nology.BasicMethods.*;
+
+
+Class are named in PascalCase, variables are named in camelCase
+
+
+Arrays are not resizable, Arraylists are
+
+
+Using the "debug" command rather than the "run" command is how break points (red dots, created by clicking a line number) are inspected.
+
+The program will pause and show you the state of all variables just BEFORE the break-point line is executed.
+
+Click "step over" (on the bar along the top of the debugger) to see the state of the variables just AFTER the break point line is executed.
+
+
+jake5 was on team Sherlock, which specialized in root cause analysis

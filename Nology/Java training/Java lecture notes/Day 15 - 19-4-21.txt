@@ -1,0 +1,64 @@
+REACT JS THIS WEEK (Spring next week)
+
+Front end - ~3 until 5, API challenge
+
+Tool of the day: webhook.site
+
+-  a test dummy to pummel with your elite http moves
+
+HTTP IS STATELESS	- Every request is totally independent
+
+			- Nothing about previous requests is stored
+
+			- Cookies and local storage are ways around this
+
+HTTPS (HTTP Secure) is an enhanced version of HTTP
+
+Anatomy of a message:
+
+	Method
+		- "Post" to create a new record on the source
+		- "Put" to replace a record that already exists on the source
+		- "Patch" to make changes to a record that already exists on the source
+		- "Get" gets data from a record on the source
+		- "Delete" a record from the source
+
+	URL (uniform resource locator)
+		- The server that we want to interact with
+
+	Headers
+		- Authorization code
+		- Content type (what format the body is written in)
+		- Referer (the website that gave you the link used to make the request)
+
+	Body	
+		- The specifics of the request
+
+
+When you have a button of type "submit", by default it will cause the page to refresh
+
+
+THE MAGIC
+
+Grab the "unique URL" from webhook.site
+
+Put it in the "action" tag of the form that contains your fields and submit button
+
+Add a "method" tag and put "POST"
+
+
+PROMISES
+
+A promise is how we handle servers taking time to reply to our HTTP requests
+
+A promise has three states:
+	- Resolved
+	- Rejected
+	- Pending
+
+
+MORE MAGIC
+
+http://www.randomuser.me/api returns a random mocked-up (I hope) user object
+
+The fetch method returns a promise, which can be converted into a promise 

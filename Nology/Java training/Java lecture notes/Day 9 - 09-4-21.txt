@@ -1,0 +1,16 @@
+HashMaps don't allow duplicate keys
+
+The put() method will, if given an existing key, overwrite that entry
+
+If the given key DOESN'T exist, a new entry will be created
+
+
+.getOrDefault() is superior to .get()
+
+it takes a second argument after the key, that is returned if the key isn't present
+
+This second argument HAS to be a String, regardless of the value type of the hashMap calling it
+
+
+You can't use a for each loop directly on a HashMap (unless you use "HashSets"?)
+

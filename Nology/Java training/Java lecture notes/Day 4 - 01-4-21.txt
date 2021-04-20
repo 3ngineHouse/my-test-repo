@@ -1,0 +1,44 @@
+"Has a" vs "Is a" relationships between a class
+
+If you're making overloading constructors, it is good practice to call the constructors with fewer arguments in the constructors with more arguments, and then just add the extra fields below them.
+
+If a class has a toString method, System.out.println will find it automatically - you just need to pass it a class instance, not [class instance].toString.
+
+CONSTRUCTORS HAVE THE SAME NAME AS THE CLASS
+
+It is common to collapse constructors
+
+It is common to use setter functions within constructors to benefit from any validation you might build into them.
+
+
+
+INHERITANCE
+
+An "Is a" type relationship. For example:
+
+"public class Admin extends User {}"
+
+In the above example, Admin is the SUBCLASS and User is the SUPERCLASS
+
+EVERYTHING extends Object.java. You can type "extends object" after any class, though you don't have to, but...
+
+TRICK: holding down ctrl lets you open classes like they're hyperlinks
+
+TRICK: typing .sout after a statement wraps that statement in System.out.println();
+
+Super(arguments) calls the constructor in a subclass's superclass with the given arguments.
+This can, again, be done with alt + insert.
+
+TRICK: you can "alt+insert" methods into a subclass that you want to override
+
+
+POLYMORPHISM
+
+"An admin could be a user or and admin but a user couldn't be an admin"
+
+This means you can cast a subclass to be its superclass, but a superclass can't be cast into its subclass
+
+
+COMPOSITION
+
+A "has a" type relationship

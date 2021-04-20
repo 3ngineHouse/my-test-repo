@@ -1,0 +1,53 @@
+A UTILITY class is a class that only contains static methods
+
+It is "stateless" - it holds no information that than be changed
+
+It is purely a holder for methods that perform operations useful elsewhere in the application
+
+
+The four pillars of object oriented programming:
+
+Abstraction
+Encapsulation  -  classes are a big part of this
+Inheritance
+Polymorphism
+
+
+"alt + insert" opens the generate menu in a class, allowing a constructor to be created
+
+Multiple items can be selected using shift in the menu that follows
+
+This can also create getters and setters
+
+
+The @Override annotation means that a method you write replaces a default method of the same name
+
+It's often used with toString
+
+
+Instance method = acts on one instance of a class (tends to use this.[variable])
+
+Static method = acts on all instances of a class
+
+
+If you give a variable in a class a value when you declare it, this will be the default value
+
+If you instantiate the class and don't give that variable a value, it will use the default
+
+
+
+
+
+Jay Bozo - proof to convict him in vault on floor 88
+
+Agent Venture - can fight through one obstacle on the mission
+
+
+Voice command to override traps
+
+Trophy collection on desk
+
+Poison antidote needed
+
+
+HENRY
